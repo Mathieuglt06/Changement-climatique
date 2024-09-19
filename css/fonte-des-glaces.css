@@ -1,0 +1,63 @@
+#img-montee-des-eaux {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/montee-des-eaux.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    transition: all 0.5s ease-out;
+}
+
+#img-montee-des-eaux:hover {
+    scale: 1.05;
+}
+
+#img-pertubation-ecosysteme {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/ours-polaire.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    transition: all 0.5s ease-out;
+}
+
+#img-pertubation-ecosysteme:hover {
+    scale: 1.05;
+}
+
+#img-GES {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/GES.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    transition: all 0.5s ease-out;
+}
+
+#img-GES:hover {
+    scale: 1.05;
+}
+
+@media screen and (max-width: 950px){
+    #img-montee-des-eaux, #img-pertubation-ecosysteme, #img-GES{
+        margin: auto;
+    }
+    @media screen and (max-width: 355px){
+        #img-montee-des-eaux, #img-pertubation-ecosysteme, #img-GES {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+}
